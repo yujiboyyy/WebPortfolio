@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects - Lance Emmanuel M. Canaveral</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d0d;
+            color: #fff;
+        }
+        header {
+            background: linear-gradient(135deg, #1a1a1a, #333);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background: #222;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: bold;
+            padding: 10px 15px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background: #f0a500;
+            border-radius: 8px;
+        }
+        main {
+            padding: 30px;
+            text-align: center;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .project-card {
+            background: #1c1c1c;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+        .project-card img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .project-card h3 {
+            color: #f0a500;
+        }
+        .project-card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #f0a500;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        .project-card a:hover {
+            background: #ffcc00;
+        }
+        footer {
+            background: linear-gradient(135deg, #1a1a1a, #333);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Projects</h1>
+    </header>
+    <nav>
+        <a href="about.html">Home</a>
+        <a href="skill.html">View Skills</a>
+        <a href="quizzes.html">Post Test Scores</a>
+        <a href="https://www.facebook.com/lance.canaveral25/" target="_blank">Visit My Facebook</a>
+    </nav>
+    <main>
+        <div class="projects">
+            <div class="project-card">
+                <img src="p1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>This project is i study a cisco packet tracer and i got a certificate</p>
+
+            </div>
+            <div class="project-card">
+                <img src="p2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Second Project i created a website for Hotel booking</p>
+            </div>
+            <div class="project-card">
+                <img src="p3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>This project is we create a enrollment system </p>
+                <a href="about.html" class="btn">Back to Home Page</a>
+                
+                
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lance Emmanuel M. Canaveral. All rights reserved.</p>
+    </footer>
+</body>
+</html>
